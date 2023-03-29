@@ -1,4 +1,6 @@
-export default defineEventHandler((event) => {
+
+
+export default defineEventHandler(async (event) => {
     return {
         work: [
             { id: 0, name: 'clone1', thumb: 'img/01.jpg' },
